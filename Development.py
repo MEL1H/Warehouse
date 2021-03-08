@@ -16,9 +16,8 @@ locy=halfheight-height/2
 window.geometry("%dx%d+%d+%d" %(width,height,locx,locy))
 window.title("{parcano} BALANS KESİM PROGRAMI".format(parcano=parcano))
 
-content=tk.Label(text="Bilgilendirme")
-content.grid(row=1,column=1)
+content=tk.Label(text="Bilgilendirme").grid(row=0,column=1)
 msgbox=tk.Text(window)
-msgbox.pack()
-content.pack()
+msgbox.grid(row=1,column=1)
+msgbox.insert("deneme")
 window.mainloop()
