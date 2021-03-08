@@ -1,2 +1,2 @@
-deneme 1-2-3-4
+deneme 1-2-3
 
