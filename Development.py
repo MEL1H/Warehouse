@@ -2,8 +2,19 @@ parcano="#ParcaNo#"
 
 import tkinter as tk
 
-width=800
-height=600
+#version=m for mobile p for pc
+ver="m2"
+
+
+if ver=="p":	
+	width=1366
+	height=768
+elif ver=="m":
+	width=800
+	height=600
+else:
+	raise ValueError("Versiyon duzelt")
+		
 window=tk.Tk()
 window.resizable(0,0)
 window.wm_attributes("-fullscreen","off")
@@ -20,5 +31,5 @@ content=tk.Label(text="Bilgilendirme")
 content.grid(row=1,column=1)
 msgbox=tk.Text(window)
 msgbox.grid(row=2,column=1)
-msgbox.insert("0.0","deneme")
+msgbox.insert("3.0","deneme")
 window.mainloop()
