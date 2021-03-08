@@ -1,1 +1,1 @@
-değiş artıksss
+değiş s
