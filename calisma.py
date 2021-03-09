@@ -28,5 +28,5 @@ window.geometry("%dx%d+%d+%d" %(width,height,locx,locy))
 window.title("{parcano} BALANS KESİM PROGRAMI".format(parcano=parcano))
 
 content=tk.Label(text="Bilgilendirme").place(x=halfwidth/2,y=0)
-inform=tk.f
+
 window.mainloop()
