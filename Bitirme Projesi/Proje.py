@@ -1,4 +1,4 @@
-
+asd
 parcano="3333"
 
 import tkinter as tk
