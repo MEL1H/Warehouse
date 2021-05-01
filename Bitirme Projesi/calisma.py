@@ -1,5 +1,5 @@
 parcano="#ParcaNo#"
-asd
+
 import tkinter as tk
 
 #version=m for mobile p for pc
